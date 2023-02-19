@@ -776,7 +776,7 @@ a
     left: 40px;
   }
   .timeline ul li:nth-child(even) div::before {
-    right: -15px;
+    left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent white transparent transparent;
   }
@@ -785,6 +785,8 @@ a
     border-width: 8px 16px 8px 0;
     border-color: transparent white transparent transparent;
   }
+  .timeline ul li:nth-child(odd) div {
+  transform: translate3d(-200px, 0, 0);}
   .bar{
 	  height: 10px;
   }
