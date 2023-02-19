@@ -683,7 +683,8 @@ a
   .fa-bars
 {
 	position:fixed;
-	
+	margin-left:300px;
+	margin-right:0px;
 	font-size: 20px;
 	color: white;
 	opacity: 1;
@@ -719,7 +720,11 @@ a
 	{
 			width: 280px;
 	}	
-		
+		h2
+		{
+			width: 200px;
+			font-size: 20px;	
+		}	
 		p.para{
 			font-size: 18px;
 			
@@ -771,6 +776,11 @@ a
     left: 40px;
   }
   .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .timeline ul li:nth-child(odd) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent white transparent transparent;
