@@ -286,7 +286,7 @@ time {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
-  color:black;
+  color:#f44336;
 }
 
 
@@ -358,6 +358,7 @@ color:white;
 .skills li{
 	margin:20px 0;
 	padding: 10px;
+	color: white;
 
 }	
 .bar 
@@ -456,6 +457,11 @@ color:white;
 		width: 60%;
 	}
 }
+h3
+{
+	color: 	white;
+	font-size: 30px;
+}	
 #achievements
 {
 	width: 1400px;	
@@ -477,7 +483,9 @@ color:white;
 	*box-shadow: 10px 20px 30px rgba(0,0,0,0.35),10px 20px 20px rgba(0,0,0,0.45);
 		box-shadow: 20px 50px 50px 20px rgba(0,0,0,0.75);
 }
-	
+#contact p{
+		font-size: 20px;
+}	
 .fa-regular
 {
 	font-size:40px;
@@ -661,6 +669,11 @@ a
 	color:white;
 	
 	
+}
+h3
+{
+	color: 	white;
+	font-size: 20px;
 }
 .title h1
 {
