@@ -5,6 +5,7 @@ body
 		
 		
 }
+
  .heading ul li
 {
 	display: inline-block;	
@@ -463,19 +464,7 @@ h3
 	color: 	white;
 	font-size: 30px;
 }	
-#achievements
-{
-	width: 1400px;	
-	padding: 20px;
-	color:white;
-	*box-shadow: 10px 20px 30px rgba(0,0,0,0.35),10px 20px 20px rgba(0,0,0,0.45);
-	box-shadow: 20px 50px 50px 20px rgba(0,0,0,0.75);
-}
-#achievements li{
-	font-size: 28px;
-	
-	
-}
+
 #contact
 {
 	width: 1400px;	
@@ -515,7 +504,18 @@ a
 	text-align:center;
 	
 		color:#eeeeee;
-}	
+}
+.fa-arrow-up{
+	color:white;
+	font-size:20px;
+	float:right
+	
+}
+.fa-arrow-up:hover{
+	
+	font-size:30px;
+	font-weight:100px;
+}		
 @media screen and (max-width: 900px) {
 	img
 {
